@@ -1,0 +1,5 @@
+Doker-compose command list 
+
+Start Local: docker-compose -f docker-compose-local.yml -f docker-compose-ports.yml up -d
+Start Test:  docker-compose -f docker-compose-local.yml -f docker-compose-test.yml -f docker-compose-close-ports.yml up -d
+Start Prod:  docker-compose -f docker-compose-local.yml -f docker-compose-test.yml -f docker-compose-close-ports.yml up -d
